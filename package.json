@@ -1,5 +1,5 @@
 {
-  "name": "loginapi",
+  "name": "videopost",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -17,12 +17,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mratanpara/loginapi.git"
+    "url": "git+https://github.com/mratanpara/videopost.git"
   },
   "author": "mohit ratanpara",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/mratanpara/loginapi/issues"
+    "url": "https://github.com/mratanpara/videopost/issues"
   },
-  "homepage": "https://github.com/mratanpara/loginapi#readme"
+  "homepage": "https://github.com/mratanpara/videopost#readme"
 }
