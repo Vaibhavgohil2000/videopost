@@ -39,11 +39,7 @@ router.post("/login", async (req, res) => {
 });
 
 router.get("/users",auth,async (req, res) => {
-    // const user = await User.find();
     res.send("Login Successfully Done..!!");
-});
-router.get("/bills", async (req, res) => {
-    res.send("Please Login..");
 });
 
 module.exports = router;
