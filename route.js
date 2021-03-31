@@ -10,10 +10,10 @@ router.use(bodyParser.urlencoded({ extended: true }));
 router.use(express.json());
 
 //get data
-router.get("/users",async(req,res)=>{
-    const user = await User.find();
-    res.send(user);
-});
+// router.get("/users",async(req,res)=>{
+//     const user = await User.find();
+//     res.send(user);
+// });
 
 // For register
 router.post("/register", async (req, res) => {
