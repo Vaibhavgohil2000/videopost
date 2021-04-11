@@ -10,10 +10,10 @@ router.use(bodyParser.urlencoded({ extended: true }));
 router.use(express.json());
 
 //get data
-// router.get("/users",async(req,res)=>{
-//     const user = await User.find();
-//     res.send(user);
-// });
+router.get("/users",async(req,res)=>{
+    const user = await User.find();
+    res.send(user);
+});
 
 // For register
 router.post("/register", async (req, res) => {
@@ -86,5 +86,11 @@ router.delete('/video/:id', auth, async (req, res) => {
     } catch (error) {
         res.status(404).send({ error: "Video Not Found" });
     }
+});
+
+//get data
+router.get("/videos",async(req,res)=>{
+    const video = await Video.find();
+    res.send(video);
 });
 module.exports = router;
