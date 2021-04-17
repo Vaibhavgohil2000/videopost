@@ -4,7 +4,7 @@ const bodyParser = require('body-parser');
 const route = require("./route");
 const cors = require('cors');
 const { json } = require('body-parser');
-mongoose.connect("mongodb+srv://parth:Agravat90670@cluster0.ockaa.mongodb.net/myFirstDatabase?retryWrites=true&w=majority", { useNewUrlParser: true, useUnifiedTopology: true }).then(
+mongoose.connect("mongodb+srv://Ruturaj:Ruturaj@cluster0.gdxp9.mongodb.net/myFirstDatabase?retryWrites=true&w=majority", { useNewUrlParser: true, useUnifiedTopology: true }).then(
     () => {
         const app = express();
         app.use("/api", route);
